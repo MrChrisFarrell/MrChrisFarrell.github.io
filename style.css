@@ -1,24 +1,41 @@
-* {
-    background-color: chocolate;
+h1 {
+    background-color: cadetblue;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-li {
-    float: left;
-    border: grey;
-    border-width: 10px;
-}
-li a {
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    width:fit-content;
+  }
+  
+  li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
+    color: #000;
+    padding: 8px 16px;
     text-decoration: none;
-}
-li a:hover {
-    background-color:grey;
-}
+    background-color:darkgoldenrod;
+  }
+  
+  li {
+      float: left;
+      display:inline;
+    text-align: center;
+    border-right: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }

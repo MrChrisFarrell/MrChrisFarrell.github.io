@@ -89,7 +89,7 @@ h1 {
       background-color: lavender;
       min-width: 100px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1;
+      z-index: 10;
   }
   .dropdown-content a {
       float: none;
@@ -105,10 +105,9 @@ h1 {
   .dropdown:hover .dropdown-content {
       display: block;
   }
-  .body-text {
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
-  color: white;
+  .home-body-text {
+    background-color: rgba(0,0,0, 0.9);
+  color: cadetblue;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
@@ -119,4 +118,14 @@ h1 {
   width: 80%;
   padding: 20px;
   text-align: center;
+  }
+  .home-body-text p {
+    font-size:40px;
+  }
+  .home-body-text h2 {
+    font-size: 50px;
+  }
+  .home-body-text h1 {
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }

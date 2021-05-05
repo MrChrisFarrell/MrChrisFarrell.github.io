@@ -142,3 +142,25 @@ h1 {
     font-size: 70px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+  .aboutme-body-text img{
+    padding: 0px 20px 5px 0px;
+    float: left;
+  }
+  .aboutme-body-text{
+    font-size: 20px;
+    background-color: rgba(0,0,0, 0.9);
+    color: rgb(207, 219, 219);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+  }
+.paragraph::first-letter{
+  font-size: 34px;
+}

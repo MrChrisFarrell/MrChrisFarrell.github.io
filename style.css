@@ -57,7 +57,11 @@ h1 {
   li:last-child {
     border-right: none;
   }
-  
+  .proj-link a{
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+  }
   li .navbar-list.active {
     background-color: #4CAF50;
     color: white;
@@ -98,6 +102,10 @@ h1 {
       text-decoration: none;
       display: block;
       text-align:left;
+  }
+  .dropdown-content.active {
+      background-color: #4CAF50;
+      color: white;
   }
   .dropdown-content a:hover {
       background-color: #ddd;

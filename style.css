@@ -1,15 +1,15 @@
 *{
     box-sizing: border-box;
 }
-.blur-image{
+/*.blur-image{
     background-image: url(./images/code.jpg);
     height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+}*/
 body{
-    background-image: url(./images/code.jpg);
+    background-image: url(./images/dark-fern.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

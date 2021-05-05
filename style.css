@@ -171,3 +171,6 @@ h1 {
 .paragraph::first-letter{
   font-size: 34px;
 }
+.button{
+  border-radius: 12px;
+}
